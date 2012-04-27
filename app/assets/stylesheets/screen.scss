@@ -1,0 +1,28 @@
+
+$dark         : #362F2D;
+$dark-middle  : #4C4C4C;
+$middle       : #94B73E;
+$light-middle : #B5C0AF;
+$light        : #FAFDF2;
+
+html {background-color:$dark}
+html {color:$light}
+body {
+  padding: 10em;
+}
+
+h1
+{
+  font-family: 'Press Start 2P', cursive;
+  background-color: $dark-middle;
+  color: $middle;
+  position:absolute;
+  left:0;
+  right:0;
+  top:-3em;
+  padding: 0 1em;
+  padding-top:3.5em;
+  height:4em;
+  border-bottom:5px solid $middle
+}
+

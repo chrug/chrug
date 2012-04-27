@@ -6,7 +6,6 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -19,6 +18,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'sqlite3'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password

@@ -13,3 +13,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+/bin
+
+tags
+*.swp
+
+/.vagrant
+
+# Ignore javascript generated for jasmine testing
+public/javascripts/compiled/*
